@@ -1,0 +1,70 @@
+body{
+  background-image: url("pubg-bg.jpg");
+
+
+}
+.header img{
+  width: 300px;
+}
+.nav-link {
+    color: black;
+    font-weight:600;
+}
+.nav-link:hover{
+  color: black;
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: rgba(3, 3, 252, 0.30196078431372547);
+    border-color: blue;
+    border-bottom: 1px solid white;
+}
+.nav-tabs {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+.container {
+    margin-top: 3%;
+    border: 1px solid none;
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.16862745098039217);
+    color: white;
+    padding-bottom: 5%;
+    margin-bottom: .4%;
+    height: device-height;
+}
+.container #er{
+  border-radius: 8% 0px 8% 0px;
+}
+#er {
+  width: 45%;
+}
+
+div{
+  width: 100%!important;
+}
+.map-2>img{
+ height: 20%!important;
+}
+.half{
+  max-width: 45%;
+  display: inline-block;
+}
+#view {
+    position: absolute;
+    max-width: 40%;
+
+}
+#view img{
+  max-width: 100%;
+  border-radius: 8%;
+}
+.map:hover{
+  opacity:.9;
+  cursor:pointer;
+}
+#view p{
+  margin-top:3%;
+  margin-bottom: 0px;
+}
