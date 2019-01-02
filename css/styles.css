@@ -24,7 +24,7 @@ body{
     margin-bottom: -1px;
 }
 .container {
-    margin-top: 3%;
+    margin-top: 3%-4px;
     border: 1px solid none;
     border-radius: 10px;
     background:rgba(0, 0, 0, 0.16862745098039217);
@@ -62,6 +62,10 @@ div{
 .map:hover{
   opacity:.9;
   cursor:pointer;
+  border: 1px solid white;
+}
+.map{
+  margin-bottom: 1px;
 }
 #view p{
   margin-top:3%;
