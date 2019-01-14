@@ -3,6 +3,10 @@ body{
 
 
 }
+body center{
+  filter: sepia(0) saturate(1) hue-rotate(170deg);
+}
+
 .header img{
   width: 300px;
 }
@@ -59,10 +63,12 @@ div{
   max-width: 100%;
   border-radius: 8%;
 }
-.map:hover{
-  opacity:.9;
-  cursor:pointer;
-  border: 1px solid white;
+.map:hover {
+    opacity: .9;
+    cursor: pointer;
+    border: 1px solid #5fb6ff;
+    background: #0006;
+    transition: .5s;
 }
 .map{
   margin-bottom: 1px;
