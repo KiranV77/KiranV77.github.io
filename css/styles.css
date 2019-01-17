@@ -35,7 +35,7 @@ border: none;
     padding-bottom: 5%;
     margin-bottom: .4%;
     height: device-height;
-    
+
 }
 .container #er{
   border-radius: 8% 0px 8% 0px;
@@ -99,8 +99,21 @@ div{
     background-position: center;
     background-size: cover;
 }
-footer{
-  background:  rgb(35, 142, 238);
-  padding: 4%;
-  margin-top: 100%;
+footer {
+    border-top: 2px solid #5aafff;
+    padding: 4%;
+    margin-top: 15%;
+}
+footer img{
+  width: 5%;
+}
+.links{
+  font-weight: 500;
+  padding: 3%;
+}
+#insta{
+  width: 4%;
+}
+.links img {
+    filter: sepia(1) saturate(4) hue-rotate(180deg);
 }
