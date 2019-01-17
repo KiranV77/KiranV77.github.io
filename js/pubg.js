@@ -32,6 +32,7 @@ $(document).ready(function(){
 ];
     var i=$(this).html().split('<h3>')[1].split('</h3>')[0];
 if(j==0){
+  $('#view').addClass("map-content");
   for(item in pics){
    if(i==pics[item].name){
      $('#view').html(pics[item].pic+pics[item].ptag2+pics[item].pic2+pics[item].ptag);
@@ -43,7 +44,7 @@ else
   {
   $('#view').html("");
   j--;
-
+ $('#view').removeClass("map-content");
 }
    });
 });
