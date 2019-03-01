@@ -117,3 +117,28 @@ footer img{
 .links img {
     filter: sepia(1) saturate(4) hue-rotate(180deg);
 }
+
+#home-images img,#home-images2 img {
+    width: 100%;
+}
+
+.hm {
+    max-width: 20%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 3%
+
+}
+#home-images{
+  margin-left:2%;
+}
+#home-content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 3%;
+    padding: 2%;
+    background: whitesmoke;
+    border-radius: 2%;
+    margin-right: 4%;
+}
