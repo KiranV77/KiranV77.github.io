@@ -46,5 +46,38 @@ else
   j--;
  $('#view').removeClass("map-content");
 }
-   });
+});
+
+var weapon=[{
+  "name":"M416",
+  "image":'<img src="./js/m416.png">',
+  "data":'<h4>M416</h4><p><b>Damage : 43</b><b>Ammo : 5.56mm</b></p>'
+ },
+ {
+   "name":"M416A4",
+   "image":'<img src="./js/m416a4.png">',
+   "data":'<h4>M416A4</h4><p><b>Damage : 43</b><b>Ammo : 5.56mm</b></p>'
+ }
+];
+  var c=0;
+
+  $('ul#weapons li').on("click",function(){
+    var l=$(this).html();
+    for(item in weapon){
+      if(l==weapon[item].name){
+      if(c==0){
+        $('.gun-details').html(weapon[item].image+weapon[item].data);
+        $('.gun-details').addClass('gun-active');
+        $(this).addClass('li-active');
+        c++;
+      }
+      else{
+          $('.gun-details').html("");
+          c--;
+          $('ul#weapons li').removeClass('li-active');
+          $('.gun-details').removeClass('gun-active');
+      }
+    }
+   }
+  });
 });
